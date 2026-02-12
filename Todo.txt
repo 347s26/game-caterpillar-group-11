@@ -1,0 +1,5 @@
+Things to do...
+
+1. Homepage: local game/multiplayer across 2 computers game
+2. Discuss Other URL's: active game ( maybe player stats/profile)
+3. Maybe model player by itself, need color chosen
