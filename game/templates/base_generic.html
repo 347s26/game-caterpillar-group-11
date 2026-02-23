@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block title %}
+      <title>Caterpillar Game</title>
+    {% endblock %}
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <nav>
+      <a href="{% url 'index' %}">Home</a>
+      <a href="#">Start Game</a>
+      <a href="#">On Going Games</a>
+    </nav>
+
+    <hr>
+
+    {% block content %}{% endblock %}
+  </body>
+</html>

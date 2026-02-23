@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+  <title>Caterpillar | Home</title>
+{% endblock %}
+
+{% block content %}
+  <h1>Caterpillar</h1>
+
+  <p>Welcome to the Caterpillar game.</p>
+
+  <h2>Game stats</h2>
+  <ul>
+    <li><strong>Total games:</strong> {{ num_games }}</li>
+    <li><strong>Active games:</strong> {{ num_active_games }}</li>
+    <li><strong>Finished games:</strong> {{ num_finished_games }}</li>
+  </ul>
+{% endblock %}
